@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
     public void show(View view) {
         final MyAlertDialog dialog = new MyAlertDialog.Builder(this)
                 .setContentView(R.layout.dialog_layout)
-                .setWidth(400)
-                .setHeight(200)
+                .setWidth(500)
+                .setHeight(300)
                 .create();
         dialog.show();
         dialog.getViewById(R.id.bt_confirm).setOnClickListener(new View.OnClickListener() {
